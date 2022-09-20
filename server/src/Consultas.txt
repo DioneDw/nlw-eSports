@@ -1,0 +1,3 @@
+-- Exemplo de Query criada pelo Prisma 
+
+SELECT `main`.`Game`.`id`, `main`.`Game`.`name`, `main`.`Game`.`bannerUrl`, `aggr_selection_0_Ad`.`_aggr_count_Ads` FROM `main`.`Game` LEFT JOIN (SELECT `main`.`Ad`.`gameId`, COUNT(*) AS `_aggr_count_Ads` FROM `main`.`Ad` WHERE 1=1 GROUP BY `main`.`Ad`.`gameId`) AS `aggr_selection_0_Ad` ON (`main`.`Game`.`id` = `aggr_selection_0_Ad`.`gameId`) WHERE 1=1 LIMIT ? OFFSET ?

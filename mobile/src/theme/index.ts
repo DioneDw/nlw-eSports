@@ -14,8 +14,9 @@ export const THEME = {
     PRIMARY: '#8B5CF6',
     SUCCESS: '#34D399',
     ALERT: '#F87171',
-
-    FOOTER: ['rgba(0,0,0,0)', 'rgba(0,0,0,0.0.9)'],
+    // linear-gradient(to right, #9572FC, #43E7AD, #E1D55D)
+    // 'rgba(0,0,0,0)','rgba(0,0,0,0.9)'
+    FOOTER: ['rgba(0,0,0,0)','rgba(0,0,0,0.9)'],
     OVERLAY: 'rgba(0,0,0,0.6)',
   },
 

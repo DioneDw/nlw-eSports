@@ -1,5 +1,5 @@
 import { StyleSheet } from 'react-native';
-import { withSafeAreaInsets } from 'react-native-safe-area-context';
+// import { withSafeAreaInsets } from 'react-native-safe-area-context';
 import { THEME } from '../../theme';
 
 export const styles = StyleSheet.create({
