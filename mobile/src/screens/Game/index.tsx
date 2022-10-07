@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from 'react';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { Background } from '../../components/Background';
@@ -14,6 +13,7 @@ import { DuoCard, DuoCardProps } from '../../components/DuoCard';
 import { DuoMatch } from '../../components/DuoMatch';
 
 
+
 export function Game() {
   const [duos, setDuos] = useState<DuoCardProps[]>([])
 
@@ -27,16 +27,14 @@ export function Game() {
     navigation.goBack()
   }
   
-
   async function getDiscordUser(adsId: string) {
-    fetch(`http://192.168.2.8:3333/ads/${adsId}/discord`)
+    fetch(`http://192.168.1.16:3333/ads/${adsId}/discord`)
     .then(response => response.json())
     .then(data => setDiscordDuoSelected(data.discord));
   }
 
-  
   useEffect(()=> {
-  fetch(`http://192.168.2.8:3333/games/${game.id}/ads`)
+  fetch(`http://192.168.1.16:3333/games/${game.id}/ads`)
   .then(response => response.json())
   .then(data => setDuos(data));
   },[]);
