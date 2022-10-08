@@ -19,19 +19,28 @@ foi possível aprender e aplicar diversas tecnologias, gerar uma interação com
 ### Web - Publicar Anúncio
 ![Alt Text](project_preview/web_view_publication.png)
 
-### Mobile - Jogos Exemplos e Anúncios por Jogos
+### Mobile - Jogos Exemplos
 <div style="inline" >
 <img src="project_preview/mobile_view_games_1.jpeg" width="300" height="690" align="center"/>
 <img src="project_preview/mobile_view_games_2.jpeg" width="360 height="720" align="center"/>
+<img src="project_preview/mobile_view_games_3.jpeg" width="300" height="690" align="center"/>
+</div>
+                                                                                           
+### Mobile - Anúncios por jogos exemplos
+                                                                                           
+<div style="inline">
+<img src="project_preview/mobile_view_ads3_for_games.jpeg" width="300" height="690" align="center"/>
+<img src="project_preview/mobile_view_ads_2for_games.jpeg" width="360" height="720" align="center"/>
 <img src="project_preview/mobile_view_ads_for_games.jpeg" width="300" height="690" align="center"/>
 </div>
-
-### Mobile - Let's Play e Copiar o Discord
+                                                                                                 
+### Mobile - Let's play e Copiar Discord
+                                                          
 <div style="inline">
-<img src="project_preview/mobile_view_ads_for_games.jpeg" width="340" height="758" align="center"/>
-<
-
-
+<img src="project_preview/mobile_view_lets_play.jpeg" width="300" height="690" align="center"/>
+<img src="project_preview/mobile_view_copy_discord.jpeg" width="300" height="690" align="center"/>
+</div>
+                                                                                                
 ## :movie_camera: Funcionalidades (web e mobile)
 https://user-images.githubusercontent.com/58345467/194452412-cea5b530-a48c-4f94-ba9a-e6ac0886debc.mp4
 
@@ -54,14 +63,31 @@ https://user-images.githubusercontent.com/58345467/194452412-cea5b530-a48c-4f94-
 
 Requisitos: 
 - node instalado na máquina
+- git instalado na máquina
  
-## Criar uma pasta para o projeto
-cd project
-## Clonar repositório
+### Criar uma pasta para o projeto
+No terminal, no local onde deseja criar uma pasta execute o comando: 
+mkdir <nome_da_pasta>
+### Clonar repositório
 git clone https://github.com/DioneDw/nlw-eSports.git
+### Instalar o node modules e dependências em cada uma das 3 pastas principais (server, web e mobile)
+npm install                                                                                          
+### Criar o vinculo da database e o Prisma (ORM) novamente, na pasta server
+npx prisma generate                                                                                                 
 
+### Iniciar serviços server e web (dentro das pastas server, web. Executar):                                                                                  
+npm run dev 
+                                                                                                 
+### Iniciar serviço mobile (dentro da pasta mobile. Executar):                                                                                              
+expo start          
 
-
+### Alterar IP de chamda mobile.
+Nos arquivos index.tsx da pasta \mobile\src\screens\Game e \mobile\src\screens\Home alterar o endereço IP para o exibido após executar o comando expo start.
+<br>
+Exemplo de endereço mostrado no terminal:  Metro waiting on exp://192.168.2.4:19000
+<br>
+Exemplo de uma das alterações: fetch('http://192.168.2.4:3333/games')....
+                                                                                                 
 ## :raising_hand_man: Autor
 Dione Willy Evangelista
 https://www.linkedin.com/in/dione-willy-evangelista-59ab8314a/
