@@ -1,5 +1,8 @@
+# Readme em desenvolvimento
+
+
 # NLW-eSports 
-<img src="https://global-uploads.webflow.com/61d83a2ebb0ae01ab96e841a/630ced17a99fbd99b6169b52_Logo-NLW-eSports.svg" width="250" height="240" align="center">
+<img src="https://global-uploads.webflow.com/61d83a2ebb0ae01ab96e841a/630ced17a99fbd99b6169b52_Logo-NLW-eSports.svg" width="250" height="240" align="center"/>
 
 Aplicação Web e Mobile realizada por mim na New Level Weak-eSports, evento da Rocketseat. 
 
@@ -11,12 +14,23 @@ foi possível aprender e aplicar diversas tecnologias, gerar uma interação com
 
 ## :art: Layout
 ### Web - HOME
-![Alt Text](project_preview/home_web.png)
+![Alt Text](project_preview/web_view_home.png)
 
 ### Web - Publicar Anúncio
-![Alt Text](project_preview/publication_web.png)
+![Alt Text](project_preview/web_view_publication.png)
 
-### Mobile
+### Mobile - Jogos Exemplos e Anúncios por Jogos
+<div style="inline" >
+<img src="project_preview/mobile_view_games_1.jpeg" width="300" height="690" align="center"/>
+<img src="project_preview/mobile_view_games_2.jpeg" width="360 height="720" align="center"/>
+<img src="project_preview/mobile_view_ads_for_games.jpeg" width="300" height="690" align="center"/>
+</div>
+
+### Mobile - Let's Play e Copiar o Discord
+<div style="inline">
+<img src="project_preview/mobile_view_ads_for_games.jpeg" width="340" height="758" align="center"/>
+<
+
 
 ## :movie_camera: Funcionalidades (web e mobile)
 https://user-images.githubusercontent.com/58345467/194452412-cea5b530-a48c-4f94-ba9a-e6ac0886debc.mp4
@@ -38,24 +52,14 @@ https://user-images.githubusercontent.com/58345467/194452412-cea5b530-a48c-4f94-
 
 ## :file_folder: Como executar o projeto
 
-Requisitos: npm
-
-# Criar uma pasta para o projeto
+Requisitos: 
+- node instalado na máquina
+ 
+## Criar uma pasta para o projeto
 cd project
-# Clonar repositório
+## Clonar repositório
 git clone https://github.com/DioneDw/nlw-eSports.git
-# Instalar as dependências dentro das pastas server, web e mobile
-# Dentro da pasta server criar a variável de dependência 
-npm install
-# Executar o backend
--cd server
--npm run dev
-# Executar o backend
--cd server
--npm run dev
-# Executar o mobile
--cd mobile
--expo start
+
 
 
 ## :raising_hand_man: Autor
