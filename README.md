@@ -78,7 +78,7 @@ npm run dev
 ### Iniciar serviço mobile (dentro da pasta mobile. Executar):                                                                                              
 expo start          
 
-### Alterar IP de chamda mobile.
+### Alterar IP de chamada mobile.
 Nos arquivos index.tsx da pasta \mobile\src\screens\Game e \mobile\src\screens\Home alterar o endereço IP para o exibido após executar o comando expo start.
 <br>
 Exemplo de endereço mostrado no terminal:  Metro waiting on exp://192.168.2.4:19000
