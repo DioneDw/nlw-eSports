@@ -18,17 +18,17 @@ foi possível aprender e aplicar diversas tecnologias, gerar uma interação com
 
 ### Mobile - Jogos Exemplos
 <div style="inline" >
-<img src="project_preview/mobile_view_games_1.jpeg" width="300" height="690" align="center"/>
-<img src="project_preview/mobile_view_games_2.jpeg" width="360 height="720" align="center"/>
-<img src="project_preview/mobile_view_games_3.jpeg" width="300" height="690" align="center"/>
+<img src="project_preview/mobile_view_games_1.jpeg" width="250" height="500" align="center"/>
+<img src="project_preview/mobile_view_games_2.jpeg" width="250" height="500" align="center"/>
+<img src="project_preview/mobile_view_games_3.jpeg" width="250" height="500" align="center"/>
 </div>
                                                                                            
 ### Mobile - Anúncios por jogos exemplos
                                                                                            
 <div style="inline">
-<img src="project_preview/mobile_view_ads3_for_games.jpeg" width="300" height="690" align="center"/>
-<img src="project_preview/mobile_view_ads_2for_games.jpeg" width="360" height="720" align="center"/>
-<img src="project_preview/mobile_view_ads_for_games.jpeg" width="300" height="690" align="center"/>
+<img src="project_preview/mobile_view_ads3_for_games.jpeg" width="250" height="500" align="center"/>
+<img src="project_preview/mobile_view_ads_2for_games.jpeg" width="250" height="500" align="center"/>
+<img src="project_preview/mobile_view_ads_for_games.jpeg" width="250" height="500" align="center"/>
 </div>
                                                                                                  
 ### Mobile - Let's play e Copiar Discord
